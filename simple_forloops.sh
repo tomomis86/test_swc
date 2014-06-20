@@ -1,7 +1,12 @@
 COUNTER=0
 
-while [ $COUNTER -lt 10 ];
-do
-    echo The counter is at $COUNTER
-    let COUNTER=COUNTER+1
+#while [ $COUNTER -lt 10 ];
+#do
+#    echo The counter is at $COUNTER
+#    let COUNTER=COUNTER+1
+#done
+
+for i in {1..10}; do
+    let j=i+1
+    echo $i $j >> data1.txt
 done
