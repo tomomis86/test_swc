@@ -1,3 +1,4 @@
+#This is fun :D
 COUNTER=0
 
 while [ $COUNTER -lt 10 ];
