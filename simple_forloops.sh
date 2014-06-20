@@ -5,6 +5,7 @@ COUNTER=0
 #do
 #    echo The counter is at $COUNTER
 #    let COUNTER=COUNTER+1
+
 for i in {1..10};do
     echo 'k is' $i
 done
